@@ -11,7 +11,6 @@ module.exports = {
     },
 
     rinkeby: {
-      // provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/51929b79a0174a839c640f093d5f2b8d`),
       provider: () =>
         new HDWalletProvider(
           mnemonic,
