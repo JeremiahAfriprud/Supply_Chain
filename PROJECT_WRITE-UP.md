@@ -46,7 +46,7 @@ Infura - deploying smart contract
 I didn't use IPFS
 
 # Address Smart Contract Supply Chain #
-SupplyChain.address : XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+SupplyChain.address : 0x131708b2ea909f5ca413c1c350a9fb06f6c47ab388fcddd932770853ebe92739
 
 # ---------------------------------------------- #
 # ---------------------------------------------- #
@@ -58,175 +58,33 @@ D:\blockchain\UdacityBlockchainDeveloper\Project3\project-6>truffle devel
 Truffle Develop started at http://127.0.0.1:9545/
 
 Accounts:
-(0) 0x7727f4462fe8b37aaf0fc333a9067b7c044c7e2b
-(1) 0x7ee91fca921e213689d8948fcb142a37599d09a0
-(2) 0xfbef5f0f3e9bfedc0e014d502e203b118bf79af9
-(3) 0x05ea0912124dddf0b4d3138567dc741e6895010c
-(4) 0x7c1c44f89a047dbc1536cc6734d59b1514d2f10c
-(5) 0xe2c56ea5fee52b21e804484c062b2826f04e1158
-(6) 0x38bef1d4ab1cc6aad4829a4907cfc93b42a20d8a
-(7) 0x1a26b950ef6b9e014d1c914cb1f1d03519936ecd
-(8) 0xa606a7801f3c4b1eb788e9189c2584f068958be2
-(9) 0x42acf7b1b89e0b335189030efb7188a2cb6f133d
+(0) 0x627306090abab3a6e1400e9345bc60c78a8bef57
+(1) 0xf17f52151ebef6c7334fad080c5704d77216b732
+(2) 0xc5fdf4076b8f3a5357c5e395ab970b5b54098fef
+(3) 0x821aea9a577a9b44299b9c15c88cf3087f3b5544
+(4) 0x0d1d4e623d10f9fba5db95830f7d3839406c6af2
+(5) 0x2932b7a2355d6fecc4b5c0b6bd44cc31df247a2e
+(6) 0x2191ef87e392377ec08e7c08eb105ef5448eced5
+(7) 0x0f4f2ac550a1b4e2280d04c21cea7ebd822934b5
+(8) 0x6330a553fc93768f612722bb8c2ec78ac90b3bbc
+(9) 0x5aeda56215b167893e80b4fe645ba6d5bab767de
 
 Private Keys:
-(0) 1d5b20e513b937b3461236d4f1d5af4d59b427100399ea737bb6409665a62280
-(1) 566acd0d7e89257d72dd8a6bb0585ac6becfa6e5ec6ab15b57c5cc78b7c7a7d1
-(2) 7d476ae4cf90aa1cf5144285969328fe8227dc02c48340b515e206be1d9bd803
-(3) 5daee62d602da6cf7fa4cdb8925273493bc7c38366c97c059c4799847d893b0f
-(4) 85bde95513c657c77c26738e977e23989ad450d485b96f89e64c1f80b755b6c0
-(5) 28304db08eb66ad0834eaa46fe657097bfef72bc6a1ebf00a4d2bbd3ed6b8074
-(6) 1529c15ba441768ce6a5f7f29d79548c5f927c9b6a3ade00d0768f7d09398b69
-(7) 854b100bd793be0576a79a10326940b83619ac8b52d25c757e880f8f4427823a
-(8) da8a2ee654fe264fbc867bea94f46996bb41f2cd2459d334c523141b5619f1e5
-(9) 6338900ea36939567ea75a98145360fba8ca463751d61dae9a0d211c0d2718cc
+(0) c87509a1c067bbde78beb793e6fa76530b6382a4c0241e5e4a9ec0a0f44dc0d3
+(1) ae6ae8e5ccbfb04590405997ee2d52d2b330726137b875053c36d94e974d162f
+(2) 0dbbe8e4ae425a6d2687f1a7e3ba17bc98c673636790f1b8ad91193c05875ef1
+(3) c88b703fb08cbea894b6aeff5a544fb92e78a18e19814cd85da83b71f772aa6c
+(4) 388c684f0ba1ef5017716adb5d21a053ea8e90277d0868337519f97bede61418
+(5) 659cbb0e2411a44db63778987b1e22153c086a95eb6b18bdf89de078917abc63
+(6) 82d052c865f5763aad42add438569276c00d3d88a2d062d36b2bae914d58b8c8
+(7) aa3680d5d48a8283413f7a108367c7299ca73f553735860a87b08f39395618b7
+(8) 0f62d96d6675f32685bbdb8ac13cda7c23436f63efbb9d07700d8669ff12b7c4
+(9) 8d5366123cb560bb606379f90a0bfd4769eecc0557f1b362dcae9012b548b1e5
 
-Mnemonic: minute jungle melody odor quote parrot benefit suspect exclude bike flee gate
+Mnemonic: candy maple cake sugar pudding cream honey rich smooth crumble sweet treat
 
 ⚠️  Important ⚠️  : This mnemonic was created for you by Truffle. It is not secure.
 Ensure you do not use it on production blockchains, or else you risk losing funds.
-
-truffle(develop)> compile
-truffle(develop)> migrate --reset
-Using network 'develop'.
-
-Compiling your contracts...
-===========================
-> Everything is up to date, there is nothing to compile.
-
-
-
-Starting migrations...
-======================
-> Network name:    'develop'
-> Network id:      5777
-> Block gas limit: 6721975 (0x6691b7)
-
-
-1_initial_migration.js
-======================
-
-   Replacing 'Migrations'
-   ----------------------
-   > transaction hash:    0xd911f9f9cd0a1a5c2ce2a782fa914bb2809ff47dfef208e2cf9802e315879a31
-   > Blocks: 0            Seconds: 0
-   > contract address:    0x2702A75Ad89233FB9301dA0cAF6594B1380e9224
-   > block number:        1
-   > block timestamp:     1638798723
-   > account:             0x7727F4462fe8B37aAf0FC333a9067B7C044C7E2b
-   > balance:             99.999522812
-   > gas used:            238594 (0x3a402)
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.000477188 ETH
-
-
-   > Saving migration to chain.
-   > Saving artifacts
-   -------------------------------------
-   > Total cost:         0.000477188 ETH
-
-
-2_deploy_contracts.js
-=====================
-
-   Replacing 'FarmerRole'
-   ----------------------
-   > transaction hash:    0x68d2afe2c5aa2780f56f1231c42cc06ef702c4a560d26bbdfff9db2f3615ad19
-   > Blocks: 0            Seconds: 0
-   > contract address:    0x52288F3058a193C774c09d393BE740921B11F69a
-   > block number:        3
-   > block timestamp:     1638798724
-   > account:             0x7727F4462fe8B37aAf0FC333a9067B7C044C7E2b
-   > balance:             99.998810474
-   > gas used:            313821 (0x4c9dd)
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.000627642 ETH
-
-
-   Replacing 'DistributorRole'
-   ---------------------------
-   > transaction hash:    0x157b863f07f8c280c7ed324f3fa1fa48011a3e8d0a12aef58c04594e4162b9b4
-   > Blocks: 0            Seconds: 0
-   > contract address:    0xC1ca88a45aCB1824b8D9EfCcd918A800B380246F
-   > block number:        4
-   > block timestamp:     1638798724
-   > account:             0x7727F4462fe8B37aAf0FC333a9067B7C044C7E2b
-   > balance:             99.998154264
-   > gas used:            328105 (0x501a9)
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.00065621 ETH
-
-
-   Replacing 'RetailerRole'
-   ------------------------
-   > transaction hash:    0xe4095033a941aedb28e5c628e8c7785343eca64076828178978ea86d8ec5dac1
-   > Blocks: 0            Seconds: 0
-   > contract address:    0x71516646Dda70d80C6A5b8140337D515dceeFa7d
-   > block number:        5
-   > block timestamp:     1638798724
-   > account:             0x7727F4462fe8B37aAf0FC333a9067B7C044C7E2b
-   > balance:             99.997526598
-   > gas used:            313833 (0x4c9e9)
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.000627666 ETH
-
-
-   Replacing 'ConsumerRole'
-   ------------------------
-   > transaction hash:    0x83556759736a0f19baa5dff9d55e1b729e1a74a3fe77b928b0eed6e1163648ec
-   > Blocks: 0            Seconds: 0
-   > contract address:    0x46CB4f1d9B131b84434a6Cd4505876d263EE9b52
-   > block number:        6
-   > block timestamp:     1638798725
-   > account:             0x7727F4462fe8B37aAf0FC333a9067B7C044C7E2b
-   > balance:             99.996870388
-   > gas used:            328105 (0x501a9)
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.00065621 ETH
-
-
-   Replacing 'SupplyChain'
-   -----------------------
-   > transaction hash:    0x35b1a906f5f7c8710147b79fbcb84dc2eca41f26db7b216441d5b86abd716445
-   > Blocks: 0            Seconds: 0
-   > contract address:    0x588Ba2Fc5fD1881f9FaC74b0abEc38819724006D
-   > block number:        7
-   > block timestamp:     1638798725
-   > account:             0x7727F4462fe8B37aAf0FC333a9067B7C044C7E2b
-   > balance:             99.991715646
-   > gas used:            2577371 (0x2753db)
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.005154742 ETH
-
-
-   > Saving migration to chain.
-   > Saving artifacts
-   -------------------------------------
-   > Total cost:          0.00772247 ETH
-
-
-Summary
-=======
-> Total deployments:   6
-> Final cost:          0.008199658 ETH
-
-
-- Fetching solc version list from solc-bin. Attempt #1
-- Blocks: 0            Seconds: 0
-- Saving migration to chain.
-- Blocks: 0            Seconds: 0
-- Blocks: 0            Seconds: 0
-- Blocks: 0            Seconds: 0
-- Blocks: 0            Seconds: 0
-- Blocks: 0            Seconds: 0
-- Saving migration to chain.
-
 
 truffle(develop)> test
 Using network 'develop'.
@@ -260,3 +118,26 @@ Consumer: accounts[4]  0x7C1C44F89a047DBC1536cc6734D59b1514d2f10C
   10 passing (2s)
 
 - Fetching solc version list from solc-bin. Attempt #1
+
+truffle(develop)> migrate --network rinkeby
+Using network 'rinkeby'.
+
+Running migration: 2_deploy_contracts.js
+  Deploying FarmerRole...
+  ... 0xc52551d432f0c602eed10626fa3d7485dca7034df94cbadb5c2dbf62e1a45c79
+  FarmerRole: 0x6a24a094e44c3c88e1f291661f2f49e81b73fa8e
+  Deploying DistributorRole...
+  ... 0x888bdefc30383e39aa97313b2ed92f8b2695c473bf95b89233fe610b0008558a
+  DistributorRole: 0xbc0891b2a1fb5aad8e261c2207b40c3f5894e848
+  Deploying RetailerRole...
+  ... 0xd08aab2cf1ac79de36bf1c263328631c40ba432e92a93709a0075b8f0ebb6fb0
+  RetailerRole: 0xb2b7ab8e0b801e2522ae873027e7536a9eb34863
+  Deploying ConsumerRole...
+  ... 0x1730bdd7057a9fac980b13c15f8a0419f108c6bcdcfd795fb964c26c09e15120
+  ConsumerRole: 0xb826dd5aeae10ad759edae996b69bdbb4c5d09fd
+  Deploying SupplyChain...
+  ... 0x9ff0b9225e5b47a5a702862019ae2c33dddf673175cfd8c582024468e2e63068
+  SupplyChain: 0x1dbfe454580f0ed1a558475d149549f0447a87d8
+Saving successful migration to network...
+  ... 0x131708b2ea909f5ca413c1c350a9fb06f6c47ab388fcddd932770853ebe92739
+Saving artifacts...
